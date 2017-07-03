@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+static NSString *const YXLCaptureSessionStartNotification;
+static NSString *const YXLCaptureStillImageNotification;
+
 @interface ViewController : UIViewController
 
 

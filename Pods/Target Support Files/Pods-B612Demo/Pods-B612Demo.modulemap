@@ -1,0 +1,6 @@
+framework module Pods_B612Demo {
+  umbrella header "Pods-B612Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

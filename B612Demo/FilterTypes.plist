@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>value</key>
+		<string></string>
+		<key>key</key>
+		<string>原图</string>
+	</dict>
+	<dict>
+		<key>value</key>
+		<string>CIPhotoEffectTransfer</string>
+		<key>key</key>
+		<string>岁月</string>
+	</dict>
+	<dict>
+		<key>value</key>
+		<string>CIPhotoEffectInstant</string>
+		<key>key</key>
+		<string>怀旧</string>
+	</dict>
+	<dict>
+		<key>value</key>
+		<string>CIPhotoEffectMono</string>
+		<key>key</key>
+		<string>单色</string>
+	</dict>
+	<dict>
+		<key>value</key>
+		<string>CIColorInvert</string>
+		<key>key</key>
+		<string>反色</string>
+	</dict>
+</array>
+</plist>

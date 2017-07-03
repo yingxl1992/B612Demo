@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABE588FEDBDB945B15F0DACF /* Pods_B612Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6215BEAA75B3301EAE4E300 /* Pods_B612Demo.framework */; };
 		E23C834D1EF9171B00598070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C834C1EF9171B00598070 /* main.m */; };
 		E23C83501EF9171B00598070 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C834F1EF9171B00598070 /* AppDelegate.m */; };
 		E23C83531EF9171B00598070 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C83521EF9171B00598070 /* ViewController.m */; };
 		E23C83561EF9171B00598070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23C83541EF9171B00598070 /* Main.storyboard */; };
 		E23C83581EF9171B00598070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23C83571EF9171B00598070 /* Assets.xcassets */; };
 		E23C835B1EF9171B00598070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23C83591EF9171B00598070 /* LaunchScreen.storyboard */; };
+		E254C2EA1EFBA9770079C5F0 /* YXLProcessingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E254C2E91EFBA9770079C5F0 /* YXLProcessingView.m */; };
+		E254C2ED1EFBB66B0079C5F0 /* YXLPhotoAndSaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E254C2EC1EFBB66B0079C5F0 /* YXLPhotoAndSaveView.m */; };
+		E27B79DF1F038C7F00C164AE /* YXLLvJingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B79DE1F038C7F00C164AE /* YXLLvJingViewController.m */; };
+		E27B79E21F038CBF00C164AE /* YXLTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B79E11F038CBF00C164AE /* YXLTabViewController.m */; };
+		E27B79E51F03AD6B00C164AE /* YXLMeiJiView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B79E41F03AD6B00C164AE /* YXLMeiJiView.m */; };
+		E27B79E81F03AD7B00C164AE /* YXLMeiYanView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B79E71F03AD7B00C164AE /* YXLMeiYanView.m */; };
+		E27B79EB1F03B13100C164AE /* YXLLvJingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B79EA1F03B13100C164AE /* YXLLvJingContentViewController.m */; };
+		E2D1A8211F00EF0500A249A3 /* YXLLvJingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1A8201F00EF0500A249A3 /* YXLLvJingView.m */; };
+		E2D1A8291F00FE8C00A249A3 /* YXLBottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1A8281F00FE8C00A249A3 /* YXLBottomViewController.m */; };
+		E2E9703C1F01F9DF002F024A /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E9703B1F01F9DF002F024A /* UIView+Utils.m */; };
+		E2FD526F1F04ED7600620211 /* FilterTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2FD526E1F04ED7600620211 /* FilterTypes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1826BA7F09EB2BBFB986ECD9 /* Pods-B612Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B612Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-B612Demo/Pods-B612Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		9C7C0255CF646C7A87BED9C1 /* Pods-B612Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B612Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-B612Demo/Pods-B612Demo.release.xcconfig"; sourceTree = "<group>"; };
+		A6215BEAA75B3301EAE4E300 /* Pods_B612Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_B612Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23C83481EF9171B00598070 /* B612Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = B612Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23C834C1EF9171B00598070 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E23C834E1EF9171B00598070 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,27 @@
 		E23C83571EF9171B00598070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E23C835A1EF9171B00598070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E23C835C1EF9171B00598070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E254C2E81EFBA9770079C5F0 /* YXLProcessingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLProcessingView.h; sourceTree = "<group>"; };
+		E254C2E91EFBA9770079C5F0 /* YXLProcessingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLProcessingView.m; sourceTree = "<group>"; };
+		E254C2EB1EFBB66B0079C5F0 /* YXLPhotoAndSaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLPhotoAndSaveView.h; sourceTree = "<group>"; };
+		E254C2EC1EFBB66B0079C5F0 /* YXLPhotoAndSaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLPhotoAndSaveView.m; sourceTree = "<group>"; };
+		E27B79DD1F038C7F00C164AE /* YXLLvJingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLLvJingViewController.h; sourceTree = "<group>"; };
+		E27B79DE1F038C7F00C164AE /* YXLLvJingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLLvJingViewController.m; sourceTree = "<group>"; };
+		E27B79E01F038CBF00C164AE /* YXLTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLTabViewController.h; sourceTree = "<group>"; };
+		E27B79E11F038CBF00C164AE /* YXLTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLTabViewController.m; sourceTree = "<group>"; };
+		E27B79E31F03AD6B00C164AE /* YXLMeiJiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLMeiJiView.h; sourceTree = "<group>"; };
+		E27B79E41F03AD6B00C164AE /* YXLMeiJiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLMeiJiView.m; sourceTree = "<group>"; };
+		E27B79E61F03AD7B00C164AE /* YXLMeiYanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLMeiYanView.h; sourceTree = "<group>"; };
+		E27B79E71F03AD7B00C164AE /* YXLMeiYanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLMeiYanView.m; sourceTree = "<group>"; };
+		E27B79E91F03B13100C164AE /* YXLLvJingContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLLvJingContentViewController.h; sourceTree = "<group>"; };
+		E27B79EA1F03B13100C164AE /* YXLLvJingContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLLvJingContentViewController.m; sourceTree = "<group>"; };
+		E2D1A81F1F00EF0500A249A3 /* YXLLvJingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLLvJingView.h; sourceTree = "<group>"; };
+		E2D1A8201F00EF0500A249A3 /* YXLLvJingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLLvJingView.m; sourceTree = "<group>"; };
+		E2D1A8271F00FE8C00A249A3 /* YXLBottomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLBottomViewController.h; sourceTree = "<group>"; };
+		E2D1A8281F00FE8C00A249A3 /* YXLBottomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLBottomViewController.m; sourceTree = "<group>"; };
+		E2E9703A1F01F9DF002F024A /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		E2E9703B1F01F9DF002F024A /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		E2FD526E1F04ED7600620211 /* FilterTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FilterTypes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE588FEDBDB945B15F0DACF /* Pods_B612Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		438575825DDFBA2C1824DA82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1826BA7F09EB2BBFB986ECD9 /* Pods-B612Demo.debug.xcconfig */,
+				9C7C0255CF646C7A87BED9C1 /* Pods-B612Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C7D249AE53CB5F8B0F78EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6215BEAA75B3301EAE4E300 /* Pods_B612Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E23C833F1EF9171B00598070 = {
 			isa = PBXGroup;
 			children = (
 				E23C834A1EF9171B00598070 /* B612Demo */,
 				E23C83491EF9171B00598070 /* Products */,
+				438575825DDFBA2C1824DA82 /* Pods */,
+				5C7D249AE53CB5F8B0F78EE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +114,7 @@
 		E23C834A1EF9171B00598070 /* B612Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E2FD526A1F04DAF100620211 /* BottomView */,
 				E23C834E1EF9171B00598070 /* AppDelegate.h */,
 				E23C834F1EF9171B00598070 /* AppDelegate.m */,
 				E23C83511EF9171B00598070 /* ViewController.h */,
@@ -67,6 +124,11 @@
 				E23C83591EF9171B00598070 /* LaunchScreen.storyboard */,
 				E23C835C1EF9171B00598070 /* Info.plist */,
 				E23C834B1EF9171B00598070 /* Supporting Files */,
+				E2E9703A1F01F9DF002F024A /* UIView+Utils.h */,
+				E2E9703B1F01F9DF002F024A /* UIView+Utils.m */,
+				E27B79E01F038CBF00C164AE /* YXLTabViewController.h */,
+				E27B79E11F038CBF00C164AE /* YXLTabViewController.m */,
+				E2FD526E1F04ED7600620211 /* FilterTypes.plist */,
 			);
 			path = B612Demo;
 			sourceTree = "<group>";
@@ -79,6 +141,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E2FD526A1F04DAF100620211 /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD526D1F04DB4300620211 /* FilterView */,
+				E2FD526C1F04DB2A00620211 /* SaveView */,
+				E2FD526B1F04DB1200620211 /* DefaultView */,
+				E2D1A8271F00FE8C00A249A3 /* YXLBottomViewController.h */,
+				E2D1A8281F00FE8C00A249A3 /* YXLBottomViewController.m */,
+			);
+			name = BottomView;
+			sourceTree = "<group>";
+		};
+		E2FD526B1F04DB1200620211 /* DefaultView */ = {
+			isa = PBXGroup;
+			children = (
+				E254C2E81EFBA9770079C5F0 /* YXLProcessingView.h */,
+				E254C2E91EFBA9770079C5F0 /* YXLProcessingView.m */,
+			);
+			name = DefaultView;
+			sourceTree = "<group>";
+		};
+		E2FD526C1F04DB2A00620211 /* SaveView */ = {
+			isa = PBXGroup;
+			children = (
+				E254C2EB1EFBB66B0079C5F0 /* YXLPhotoAndSaveView.h */,
+				E254C2EC1EFBB66B0079C5F0 /* YXLPhotoAndSaveView.m */,
+			);
+			name = SaveView;
+			sourceTree = "<group>";
+		};
+		E2FD526D1F04DB4300620211 /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				E27B79DD1F038C7F00C164AE /* YXLLvJingViewController.h */,
+				E27B79DE1F038C7F00C164AE /* YXLLvJingViewController.m */,
+				E27B79E31F03AD6B00C164AE /* YXLMeiJiView.h */,
+				E27B79E41F03AD6B00C164AE /* YXLMeiJiView.m */,
+				E27B79E61F03AD7B00C164AE /* YXLMeiYanView.h */,
+				E27B79E71F03AD7B00C164AE /* YXLMeiYanView.m */,
+				E27B79E91F03B13100C164AE /* YXLLvJingContentViewController.h */,
+				E27B79EA1F03B13100C164AE /* YXLLvJingContentViewController.m */,
+				E2D1A81F1F00EF0500A249A3 /* YXLLvJingView.h */,
+				E2D1A8201F00EF0500A249A3 /* YXLLvJingView.m */,
+			);
+			name = FilterView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E23C835F1EF9171B00598070 /* Build configuration list for PBXNativeTarget "B612Demo" */;
 			buildPhases = (
+				CE2950DD400DB267E2FDD9D9 /* [CP] Check Pods Manifest.lock */,
 				E23C83441EF9171B00598070 /* Sources */,
 				E23C83451EF9171B00598070 /* Frameworks */,
 				E23C83461EF9171B00598070 /* Resources */,
+				079B968D13F1C9CA465111FA /* [CP] Embed Pods Frameworks */,
+				A0CD5AC6982909A7F3FD2FB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +222,7 @@
 				TargetAttributes = {
 					E23C83471EF9171B00598070 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8GB5VM96LY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,20 +252,79 @@
 			files = (
 				E23C835B1EF9171B00598070 /* LaunchScreen.storyboard in Resources */,
 				E23C83581EF9171B00598070 /* Assets.xcassets in Resources */,
+				E2FD526F1F04ED7600620211 /* FilterTypes.plist in Resources */,
 				E23C83561EF9171B00598070 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		079B968D13F1C9CA465111FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-B612Demo/Pods-B612Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CD5AC6982909A7F3FD2FB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-B612Demo/Pods-B612Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2950DD400DB267E2FDD9D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E23C83441EF9171B00598070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D1A8211F00EF0500A249A3 /* YXLLvJingView.m in Sources */,
 				E23C83531EF9171B00598070 /* ViewController.m in Sources */,
 				E23C83501EF9171B00598070 /* AppDelegate.m in Sources */,
 				E23C834D1EF9171B00598070 /* main.m in Sources */,
+				E27B79E21F038CBF00C164AE /* YXLTabViewController.m in Sources */,
+				E27B79DF1F038C7F00C164AE /* YXLLvJingViewController.m in Sources */,
+				E2D1A8291F00FE8C00A249A3 /* YXLBottomViewController.m in Sources */,
+				E27B79E81F03AD7B00C164AE /* YXLMeiYanView.m in Sources */,
+				E254C2ED1EFBB66B0079C5F0 /* YXLPhotoAndSaveView.m in Sources */,
+				E2E9703C1F01F9DF002F024A /* UIView+Utils.m in Sources */,
+				E254C2EA1EFBA9770079C5F0 /* YXLProcessingView.m in Sources */,
+				E27B79EB1F03B13100C164AE /* YXLLvJingContentViewController.m in Sources */,
+				E27B79E51F03AD6B00C164AE /* YXLMeiJiView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +442,13 @@
 		};
 		E23C83601EF9171B00598070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1826BA7F09EB2BBFB986ECD9 /* Pods-B612Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8GB5VM96LY;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = B612Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yingxiaoli.B612Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,9 +457,13 @@
 		};
 		E23C83611EF9171B00598070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7C0255CF646C7A87BED9C1 /* Pods-B612Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8GB5VM96LY;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = B612Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yingxiaoli.B612Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +489,7 @@
 				E23C83611EF9171B00598070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
